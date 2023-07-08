@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./src/styles/home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="/src/styles/barra.css">
+    <link rel="stylesheet" href="/src/styles/formulario.css">
 </head>
 <body>
     <header class="header">
@@ -27,22 +28,26 @@
         </div>
         <div class="">
             <ul class="nav displaynone d-flex justify-content-end">
-               <li class="secciones btn btn-outline-light btn-small m-3">Nosotros</li>
-               <li class="secciones btn btn-outline-light btn-small m-3">Servicios</li>
-               <li class="secciones btn btn-outline-light btn-small m-3">Clientes</li>
-               <li class="secciones btn btn-outline-light btn-small m-3">productos</li>
-               <li class="secciones btn btn-outline-light btn-small m-3">Herramientas</li>
+               <li class="secciones btn btn-outline-light btn-small m-2">Nosotros</li>
+               <li class="secciones btn btn-outline-light btn-small m-2 ">Servicios</li>
+               <li class="secciones btn btn-outline-light btn-small m-2 ">Clientes</li>
+               <li class="secciones btn btn-outline-light btn-small m-2 ">productos</li>
+               <li class="secciones btn btn-outline-light btn-small m-2 ">Herramientas</li>
             </ul>
            </div>
            <div class="cont-elementos">
                <div class="cont-encabezado d-flex">
-                   <h1>Desarrollador de aplicaciones,  paginas  Web y acesoramiento</h1>
-               <h2>Impulsa tu Negocio en Línea con Soluciones Personalizadas y Eficientes</h2>
+                <div id="titulo1" class="titulo11">
+                    <h1 class="">Desarrollador de aplicaciones,  paginas  Web y acesoramiento</h1>
+                </div>
+                <div id="titulo2" class="titulo22">
+                    <h2 class="">Impulsa tu Negocio en Línea con Soluciones Personalizadas y Eficientes</h2>
+                </div>
                </div>
                <div class="cont-botones d-flex justify-content-center align-items-center">
-                <input class="btn btn-danger m-3" type="button" value="solicitar cotizacion">
+                <input class="btn btn-danger m-3 btn-abrir" type="button"  value="solicitar cotizacion">
                 <figure>
-                    <img class="" src="/public/wtpp.png" alt="" srcset="">
+                    <a href="https://wa.link/1r0gn4"><img class="" src="/public/wtpp.png" alt="whatsapp" srcset=""></a>
                 </figure>
                </div>
            </div>
@@ -112,8 +117,8 @@
             <div class="llamado-contenedor">
                 <h2>Deceas hacer realidad tu proyecto contactanos!</h2> 
                 <div class="texto ">
-                    <input class="btn btn-success" type="button" value="Quiero acesorarme">
-                    <a class="whatsapp" href="3128982063"></a>                       
+                    <input class="btn btn-success btn-abrir" type="button" value="Quiero acesorarme">
+                    <a class="whatsapp" href="https://wa.link/1r0gn4"></a>                       
                 </div>              
                 </div>
             </div>
@@ -135,7 +140,7 @@
                             por esta razon te asesoramos en la eleccion de las soluciones de software, aplicaciones web o paginas web mas adecuadas para tu empresa, pyme o proyecto personal. 
                         </p>
                     </div>
-                    <input class="btn btn-danger" type="button" value="saber mas">
+                    <input class="btn btn-danger btn-abrir" type="button" value="saber mas">
                 </div>
                 <div class="cont-desarrollo card-cont">
                     <div class="titulo-card">
@@ -146,7 +151,7 @@
                             a tus procesos y requisitos especificos.
                         </p>
                     </div>
-                    <input class="btn btn-danger" type="button" value="saber mas">
+                    <input class="btn btn-danger btn-abrir" type="button" value="saber mas">
                 </div>
                 <div class="aplicaciones-web card-cont ">
                     <div class="titulo-card">
@@ -158,7 +163,7 @@
                         funcionalidad, estamos aqui para ayudarte.
                     </p>
                   </div>
-                  <input class="btn btn-danger" type="button" value="saber mas">
+                  <input class="btn btn-danger btn-abrir" type="button" value="saber mas">
                 </div>
                 <div class="cont-paginasWeb card-cont">
                     <div class="titulo-card">
@@ -169,7 +174,7 @@
                         una experiencia de usuario exepcional desde paginas web corporativas hasta tiendas en linea 
                     </p>
                    </div>
-                   <input class="btn btn-danger" type="button" value="saber mas">
+                   <input class="btn btn-danger btn-abrir" type="button" value="saber mas">
                 </div>
                 <div class="cont-mejoras card-cont">
                     <div class="titulo-card">
@@ -179,12 +184,12 @@
                     <p>si ya tienes una herramienta o pagina web evaluaremos su desempeño y mejoraremos su rendimiento
                         ademas te proporcionaremos recomendaciones claras para mejorar su eficiencia y usabilidad</p>
                    </div>
-                   <input class="btn btn-danger" type="button" value="saber mas">
+                   <input class="btn btn-danger btn-abrir" type="button" value="saber mas">
                 </div>
             </div>
         </div>
 
-        <!--- seccion de clientes -->
+        <!--- seccion de clientes 
         <div class="cont-clientes">
             <div class="titulo-clientes">
               <h2 id="Clientes">clientes</h2>
@@ -229,6 +234,7 @@
             </div>
 
         </div>
+        -->
 
         <!-- productos -->
         <div class="productos">
@@ -253,7 +259,7 @@
                       </div>
                   </div>
   
-                  <div class="card-cliente bg-white">
+                 <!--  <div class="card-cliente bg-white">
                       <div class="header-cliente">
   
                       </div>
@@ -275,7 +281,7 @@
                       <div class="boton-cliente">
                           
                       </div>
-                  </div>
+                  </div>-->
                   
               </div>
 
@@ -299,11 +305,53 @@
             </div> 
            </div> 
         </div>
+        <!--quienes somos-->
+        <div  id="Nosotros" class="about p-4">
+            <h2>Nosotros</h2>
+            <div class="cont-nosotros p-4 text-start">
+                <p>Jhon, un apasionado desarrollador web especializado en aplicaciones y 
+                    páginas web. Mi enfoque se basa en brindar asesoramiento experto en soluciones 
+                    de software y ayudar a mis clientes a invertir de manera inteligente en tecnología. 
+                    Con una sólida experiencia en análisis de requerimientos, 
+                    me dedico a comprender a fondo las necesidades de cada proyecto y ofrecer soluciones personalizadas.
+                     Mi objetivo es crear aplicaciones 
+                    y sitios web de alta calidad que cumplan con los más altos estándares de profesionalismo.
+                     Estoy comprometido con la excelencia y 
+                    utilizo las últimas herramientas y tecnologías para garantizar resultados sobresalientes.
+                     Si buscas llevar tu presencia en línea al siguiente nivel, estoy aquí 
+                    para convertir 
+                    tu visión en realidad y ayudarte a destacar en el mundo digital</p>
+            </div>
+        </div>
         
     </main>
-    <div class="whatsflotante">
-        <a class="" href=""></a>
+    <!--formulario de envio-->
+    <div class="formulario-cont close">
+        <div class="close-button">&times;</div>
+        <div class="formulario ">
+            <div class="cont-text-form">
+                <h4>envia un email te contestaremos de inmediato</h4>
+            </div>
+            <form action="" class="w-75 form-control d-flex align-items-center flex-column p-3">
+                <label for="correo" class="form-label">
+                    escribe tu correo
+                    <input class="form-control form-control-sm" id="correo" name="correo" type="text">
+                </label>
+                <label for="asunto" class="form-label">
+                    escribenos cual es tu proyecto 
+                    <textarea class="form-control form-control-sm" name="asunto" id="asunto" cols="30" rows="10"></textarea>
+                </label>
+                    <input class="btn btn-danger" value="enviar" type="button">
+            
+            </form>
+        </div>
     </div>
+    
+        <a class="" href="https://wa.link/1r0gn4">
+          <div class="whatsflotante">
+          </div>
+        </a>
+    
     <div id="flecha" class="noVisible">
         <img src="/imagenes/chevron-double-up.svg" alt="flecha">
     </div>

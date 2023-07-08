@@ -12,7 +12,7 @@ entries.forEach( e => {
 }
 
 const interObserver = new IntersectionObserver(observer, {
-    threshold: 0.5
+    threshold: 0.9
 });
 
 cards.forEach(item => {
